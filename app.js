@@ -1,9 +1,9 @@
 const projects = [
   {
     img: "./assets/projects-demos/portfolio-v1.png",
-    title: "Personal Website v1",
+    title: "Site Personnel Version 1",
     tags: ["Html", "Css", "Javascript"],
-    website: "https://v1-moubarack-bagoudou.netlify.app/",
+    website: "https://moubarack-bagoudou-en-francais.netlify.app/",
   },
 ];
 
@@ -63,7 +63,7 @@ function displayProjects(projectItem) {
 // Contact Button
 contactBtn.addEventListener("click", function () {
   btnLink.href =
-    "mailto:bagoudoumoubarack@icloud.com?subject={Company%20Name}%20Job%20Interview&body=message%20goes%20here";
+    "mailto:bagoudoumoubarack@icloud.com?subject={Nom%20De%20L%20'%20entreprise}%20Entrevue&body=message%20goes%20here";
 });
 
 // Return current year
