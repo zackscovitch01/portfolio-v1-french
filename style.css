@@ -887,7 +887,7 @@ header {
   transition: 0.4s ease all;
 }
 .github:hover > a {
-  background: #4183c4;
+  background: hsl(291, 58%, 36%);
   transition: 0.4s ease all;
 }
 .linkedin:hover > a {

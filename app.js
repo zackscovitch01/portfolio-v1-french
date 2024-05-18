@@ -5,6 +5,12 @@ const projects = [
     tags: ["Html", "Css", "Javascript"],
     website: "https://moubarack-bagoudou-en-francais.netlify.app/",
   },
+  {
+    img: "./assets/projects-demos/comfy-store.png",
+    title: "Comfy Store",
+    tags: ["Html", "Css", "Javascript"],
+    website: "https://the-comfy-store.netlify.app/",
+  },
 ];
 
 const navBtn = document.querySelector(".nav-btn");
