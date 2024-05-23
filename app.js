@@ -11,6 +11,12 @@ const projects = [
     tags: ["Html", "Css", "Javascript"],
     website: "https://the-comfy-store.netlify.app/",
   },
+  {
+    img: "./assets/projects-demos/backroads.png",
+    title: "Backroads Store",
+    tags: ["React", "Css", "Javascript"],
+    website: "https://backroads-react-site.netlify.app/",
+  },
 ];
 
 const navBtn = document.querySelector(".nav-btn");
