@@ -584,7 +584,7 @@ header {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   padding: 0 4rem;
 }
 
@@ -608,10 +608,14 @@ header {
   font-size: 30px;
 }
 
+.tech-container h5 {
+  margin-top: 3rem;
+}
+
 @media screen and (min-width: 976px) {
   .tech-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    justify-content: center;
   }
 
   .section-center {
