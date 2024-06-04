@@ -584,7 +584,7 @@ header {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 6rem;
+  gap: 2rem;
   padding: 0 4rem;
 }
 
@@ -624,6 +624,11 @@ header {
 
   .companies {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .technologies {
+    gap: 6rem;
+    padding: 0 4rem;
   }
 }
 
